@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
-import { login } from "../store/login";
-import * as S from "./LoginStyles";
+import { login } from "../../store/login";
+import * as S from "./styles";
 
 const Login = () => {
   const [username, setUsername] = useState("");

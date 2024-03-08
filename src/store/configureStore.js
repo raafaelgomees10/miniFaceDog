@@ -5,7 +5,6 @@ import {
   configureStore,
   getDefaultMiddleware,
 } from "@reduxjs/toolkit";
-// import logger from "./middleware/logger";
 import localStorage from "./middleware/localStorage";
 
 const middleware = [...getDefaultMiddleware(), localStorage];

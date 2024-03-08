@@ -1,5 +1,5 @@
 import React from "react";
-import * as S from "./PhotoContentStyles";
+import * as S from "./styles";
 import { useSelector } from "react-redux";
 
 const PhotosContent = () => {

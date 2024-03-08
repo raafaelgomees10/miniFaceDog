@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { autoLogin } from "./store/login";
-import Header from "./components/Header";
+import Header from "./components/header";
 import Content from "./components/Content";
 import "./App.css";
 

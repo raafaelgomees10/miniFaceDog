@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { useDispatch } from "react-redux";
-import { loadNewPhotos } from "../store/photos";
-import PhotosContent from "./PhotosContent";
-import PhotosLoadMore from "./PhotosLoadMore";
+import { loadNewPhotos } from "../../store/photos";
+import PhotosContent from "../PhotoContent";
+import LoadMore from "../loadMore";
 
 const Photos = () => {
   const dispatch = useDispatch();
@@ -14,7 +14,7 @@ const Photos = () => {
   return (
     <section>
       <PhotosContent />
-      <PhotosLoadMore />
+      <LoadMore />
     </section>
   );
 };

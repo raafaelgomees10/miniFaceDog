@@ -24,12 +24,4 @@ export const Button = styled.button`
   border: 2px solid black;
   border-radius: 15px;
   padding: 0.3rem 1rem;
-
-  &.loading {
-    background: orange;
-  }
-
-  &.loaded {
-    background: greenyellow;
-  }
 `;
